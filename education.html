@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Personal Portfolio</title>
+</head> 
+<body>
+    <header class="header"> 
+        <div class="logo"> 
+            <img src="images/Adil_logo.svg" alt="icon"> 
+        </div> 
+ 
+        <div class="toggleMenu" onclick="toggle()"> 
+            <div class="hamburg"></div> 
+        </div> 
+ 
+        <ul class="head"> 
+            <li><a href="home.html">Home</a></li> 
+            <li><a href="family.html">Family</a></li> 
+            <li><a href="education.html">Education</a></li> 
+            <li><a href="hobby.html">Hobbies</a></li> 
+            <li><a href="contact.html">Contact</a></li> 
+        </ul> 
+    </header>
+
+    <section class="education">
+        <div class="container">
+            <div class="education__wrapper">
+                <div class="education__first-part">
+                    <div class="education__first-text">
+                        <div class="first__year">
+                            2011 - 2017
+                        </div>
+                        <div class="first__year-achievements">
+                            <li style="margin-top: 20px;">Learned the basic skills taught in school.<br><br></li>
+                            <li>Improved skills of communication.</li>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="education__first-part">
+                    <div class="education__first-text">
+                        <div class="first__year">
+                            2017 - 2023
+                        </div>
+                        <div class="first__year-achievements">
+                            <li style="margin-top: 20px;">Graduated from school with honors.<br><br></li>
+                            <li>Won a scholarship from a university.<br><br></li>
+                            <li>Learned foundational skills at school, excelling in math and science.<br><br></li>
+                            <li>Achieved top placements in national science competitions.<br><br></li>
+                            <li>Scored high enough on the Unified National Test (UNT) for a scholarship.</li>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="education__first-part">
+                    <div class="education__first-text">
+                        <div class="first__year">
+                            2023 - Present
+                        </div>
+                        <div class="first__year-achievements">
+                            <li style="margin-top: 20px;">Enrolled at SDU.<br><br></li>
+                            <li>Created several projects in the field of programming.<br><br></li>
+                            <li>Took part in Hackathons<br><br></li>
+                            <li>Reached a B1 level in English.<br><br></li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer"> 
+        <div class="container"> 
+            <div class="footer__wrapper"> 
+                <div class="footer__left"> 
+                    <ul class="footer__nav"> 
+                        <li class="footer__nav"><a href="https://www.instagram.com/naurzalin_adilet?igsh=MXVvencxa2hubndrMg==" target="_blank"><img src="images/insta.svg" alt="" class="insta"></a></li> 
+                        <li class="footer__nav"><a href="https://t.me/Adilet_Naurzalin" target="_blank"><img src="images/telega.svg" alt="" class="telega"></a></li> 
+                        <li class="footer__nav"><a href="mailto:230107139@sdu.edu.kz" target="_blank" class="email"><img src="images/email.svg" class="telega" alt=""></a></li> 
+                    </ul> 
+                </div> 
+                <div class="footer__right"> 
+                    <div class="footer__right-designer"> 
+                        Designer. 
+                    </div> 
+                </div> 
+            </div> 
+        </div> 
+    </footer>
+
+    <script type="text/javascript"> 
+        function toggle() { 
+            const toggle = document.querySelector('.toggleMenu'); 
+            const nav = document.querySelector('.head'); 
+            const header = document.querySelector('.header'); 
+                toggle.classList.toggle('active'); 
+                nav.classList.toggle('active'); 
+                header.classList.toggle('active'); 
+        } 
+    </script>
+</body>
+</html>
